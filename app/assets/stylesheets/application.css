@@ -12,4 +12,41 @@
  *
  *= require_tree .
  *= require_self
+ *= require foundation_and_overrides
+
  */
+
+.wrapper {
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  z-index: 0;
+}
+
+.spacer {
+  height: 30px;
+}
+
+#ppic {
+  border-radius: 80px;
+  height: 300px;
+}
+
+.panel {
+  border-radius: 10px;
+  opacity: 0.9;
+}
+
+h1 {
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+p {
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+
+#myname {
+
+}
